@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('assets/hotel2.jpg') rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+header p {
+    color: #ffffff;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#reservationList {
+    margin-top: 20px;
+}
+
+#reservationTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#reservationTable th,
+#reservationTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#reservationTable th {
+    background-color: #f2f2f2;
+}
+
+#reservationTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#reservationTable tbody tr:hover {
+    background-color: #ddd;
+}
